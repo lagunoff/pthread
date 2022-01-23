@@ -14,7 +14,8 @@
 
 module System.Posix.Thread
   ( -- * Threads
-    create
+    ThreadId(..)
+  , create
   , create_
   , createWithAttributes
   , createWithAttributes_
